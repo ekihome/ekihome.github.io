@@ -412,6 +412,18 @@
             background-color: green;
             grid-area: box;
         } */
+
+        .header-warning {
+            position: fixed;
+            background-color: yellow;
+            padding: 16px;
+            display: flex;
+            justify-content: center;
+            width: 100%;
+            left: 0;
+            bottom: 0;
+            z-index: 10;
+        }
     </style>
 
 </head>
@@ -419,6 +431,13 @@
 <body>
     <div>
         <div class="pageframe">
+            <div class="header-warning">
+                <p>
+                    Este sitio web está actualmente en construcción. Toda la información y el contenido que se presentan
+                    en
+                    esta página son ficticios. Te invitamos a volver pronto para descubrir nuestro contenido actualizado
+                </p>
+            </div>
             <header class="header">
                 <nav class="navbar">
                     <img src="/public/ekihome-nobg.png" alt="ekihome-logo" class="ekihome-logo" />
